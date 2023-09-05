@@ -1,13 +1,13 @@
-div{
+/* div{
     border:2px solid;
-}
+} */
 body{
     background-image: url(https://www.burmalink.org/wp-content/uploads/2015/02/Our-Karen-Flag.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 h1{
-    text-align: center;
+text-align: center;
 text-transform: capitalize;
 color:white;
 text-shadow:rgb(2,24,2) 1px 1px 2px;
@@ -19,6 +19,16 @@ p{
 
  .name{
     display: flex;
+ }
+
+ .first, .last{
+    width:50%;
+ }
+.last{
+   margin-left: 2%;
+}
+ #activities label{
+    display:block;
  }
  /* .name label{
 
@@ -38,4 +48,10 @@ width: 100%;
     padding: 3%;
     margin: 5%;
     text-transform: capitalize;
+}
+
+.submit-button{
+    margin: 1;
+    text-align: center;
+
 }
