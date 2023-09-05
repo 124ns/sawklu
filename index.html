@@ -9,26 +9,26 @@
 </p>
 <form class="user-form" action="form.html" method="post">
     <div class="name form-group">
-    <div class="form-group">
-        <label for="first-name">first-name</label>
-        <input type="text">
-       </div>
-       <div>
-        <label for="last-name">last-name</label>
-        <input type="text">
+       <div class="first">
+          <label for="first-name">first-name</label>
+          <input type="text">
     </div>
+        <div class="last">
+           <label for="last-name">last-name</label>
+           <input type="text">
     </div>
-    <div class="form-group">
+</div>
+    <div class="email form-group">
     <label for="email">email</label>
     <input type="text">
 </div>
-<div class="form-group">
+<div class="age form-group">
     <label for="age">age</label>
     <input type="text">
 </select>
 </div>
 
-<div class="form-group">
+<div class="eye-color form-group">
     <label for="eye-color">eye-color</label>
     <select name="eye-color" id="eye-color">
         <option value="1">brown</option>
@@ -38,27 +38,23 @@
     </select>
 </div>
 
-<div>
+<div id="activities">
     <p class="activities-label">what do you list to do, select all that appiles</p>
-    <label for="cooking">cooking</label>
-    <input type="checkbox" value="cooking">
+    <label for="cooking"><input type="checkbox" value="cooking">cooking</label>
 
-    <label for="hiking">hiking</label>
-    <input type="checkbox" value="hiking">
-
-    <label for="singing">singing</label>
-    <input type="checkbox" value="singing">
-
-    <label for="drawing">drawing</label>
-    <input type="checkbox" value="drawing">
-
+    <label for="hiking"><input type="checkbox" value="hiking">hiking</label>
+    
+    <label for="singing"><input type="checkbox" value="singing">singing</label>
+    
+    <label for="drawing"><input type="checkbox" value="drawing">drawing</label>
+    
 </div>
 
 <div>
 <p>commets</p>
 <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
 </div>
-
+<div class="submit-button">
 <button id="submit" type="submit">submit</button>
 
 </form>
